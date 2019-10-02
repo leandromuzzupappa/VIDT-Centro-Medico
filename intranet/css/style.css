@@ -1,0 +1,196 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+h1, h2, h3, h4, h5, h6, p, a { font-family: 'Roboto', sans-serif !important;}
+
+body { background-image: url("../img/bg/fondo_intranet_2.jpg") !important; background-size: cover; background-position: top left !important; background-color: #f2f2f2 !important;}
+.container { max-width: 1440px !important;}
+
+.subheader { background-color: #fff; border-radius: 15px; box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); height: 56px; padding-top: 18px; padding-left: 25px !important;}
+.subheader h3 { font-size: 18px; font-weight: bold; color: #A31F35;}
+
+.content { background-color: #fff !important; border-radius: 15px; box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);}
+
+/*---------------- ------ ----------------*/
+/*---------------- NAVBAR ----------------*/
+/*---------------- ------ ----------------*/
+header nav { border-radius: 0px 0px 15px 15px; box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); background-color: #fff; z-index: 111; margin-bottom: 70px;}
+header nav a { font-size: 11pt !important;}
+header nav .active { color: #A31F35 !important; font-weight: 700 !important;}
+header nav .dropdown img { border-radius: 5px;}
+header nav .dropdown-toggle::after { content: none !important;}
+
+/*---------------- ----- ----------------*/
+/*---------------- LOGIN ----------------*/
+/*---------------- ----- ----------------*/
+.login { margin-top: 40px;}
+.login form div input { border: 0px !important; box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
+.login form div .input-group-text { border: 0px !important;}
+.login form button { background-color: #fff; box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2); font-weight: 700; color: #505050;}
+
+/*---------------- ------ ----------------*/
+/*---------------- INICIO ----------------*/
+/*---------------- ------ ----------------*/
+.home-titulos { border-radius: 10px !important; background-color: #fff;}
+.home-titulos ul li a { color: #A31F35 !important;}
+
+
+/*---------------- --------- ----------------*/
+/*---------------- PACIENTES ----------------*/
+/*---------------- --------- ----------------*/
+.pacientes { margin-top: 40px;}
+.content div table tbody tr td div a { color: #A31F35 !important;}
+.content small { color: #606060;}
+
+.pacientes .pagination a { color: #606060 !important; border: 0px !important;}
+.pacientes .pagination .active a { color: #fff !important; font-weight: 700; background: #A31F35 !important;}
+
+
+/*---------------- -------- ----------------*/
+/*---------------- NOTICIAS ----------------*/
+/*---------------- -------- ----------------*/
+.noticias p { color: #909090 !important;}
+.noticias a { padding: 10px 0px;}
+.noticias .col-md-4 { margin-bottom: 20px; margin-top: 40px; padding: 0 0; margin-left: 10px; margin-right: 10px;}
+.noticias img { height: 200px; width: 100% !important; background-size: cover; background-position: top center;}
+
+.noticia-expandida .portada-noticia  { width: 100%; height: 200px; border-radius: 15px; background-image:url( https://i.redd.it/0jguqxof4wa11.jpg); background-size: cover; background-position: center center; }
+.noticia-expandida .contenido-noticia { padding-top: 20px; padding-bottom: 10px;}
+.noticia-expandida .copete-noticia { padding-left: 15px; padding-right: 15px; padding-bottom: 10px; color: #606060;}
+.noticia-expandida .cuerpo-noticia { padding-left: 15px; padding-right: 15px;}
+
+
+/*---------------- ------------- ----------------*/
+/*---------------- SUSCRIPCIONES ----------------*/
+/*---------------- ------------- ----------------*/
+.suscripcion p { color: #909090 !important;}
+.suscripcion a { padding: 10px 0px;}
+.suscripcion .col-md-4 { margin-bottom: 20px; margin-top: 40px; padding: 0 0; margin-left: 10px; margin-right: 10px;}
+.suscripcion img { height: 250px; width: 100% !important; background-size: cover; background-position: top center;}
+
+.suscripcion .suscripto{ position: relative;}
+.suscripcion .suscripto::before{ content: "\f02e"; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; color: #A31F35; font-size: 72pt; padding-right: 0.5em; position: absolute; top: -129px; left: 300px;}
+
+.popups .suscripcion-popup-portada { background-image: url(https://i.imgur.com/YpND8yA.jpg); background-size: cover; background-position: center center; width: 100%; height: 300px;}
+
+.popups .popup-copete { color: #505050;}
+.popups .popup-copete h4 { font-size: 10pt !important;}
+
+
+
+
+
+/*---------------- ------ ----------------*/
+/*---------------- VIDEOS ----------------*/
+/*---------------- ------ ----------------*/
+.galeria { margin-top: 40px; padding: 20px; height: 560px;}
+.galeria .col-md-4 { overflow: scroll;}
+.galeria .col-md-3 { padding: 0px !important;}
+.galeria .galeria-titulo { background-color: #f2f2f2 !important; padding-left: 15px;}
+.galeria .galeria-videos { margin-top: 15px;}
+.galeria .galeria-videos .row { margin-top: 15px;}
+.galeria .galeria-videos .numero-video { font-weight: 700; color: #505050;}
+.galeria .galeria-videos .titulo-video { font-weight: 700;}
+.galeria .galeria-videos .video-iframe { overflow: hidden !important;}
+.galeria .galeria-videos iframe { width: 100%; height: auto;}
+
+
+/*---------------- --- ----------------*/
+/*---------------- FAQ ----------------*/
+/*---------------- --- ----------------*/
+.faq { margin-top: 40px; padding: 20px;}
+
+.faq .card { border: 0px;}
+.faq .card-header { border: 0px; box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1); background-color: #fff !important;}
+.faq .card-header button { font-weight: 500; color: #303030;}
+
+.faq .card-body { color: #606060;}
+
+
+/*---------------- --------- ----------------*/
+/*---------------- CONSULTAS ----------------*/
+/*---------------- --------- ----------------*/
+.consultas { margin-top: 40px; padding: 20px;}
+
+.consultas input { border: 0px; border-radius: 10px; height: 56px; font-weight: 500;}
+.consultas input::placeholder { font-weight: 500; color: #909090;}
+
+.consultas textarea { border: 0px; border-radius: 10px; font-weight: 500;}
+.consultas textarea::placeholder { font-weight: 500; color: #909090;}
+
+.consultas .btn { color: #A31F35; background-color: #fff !important; box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);}
+.consultas .btn:hover { color: #fff; background-color: #A31F35 !important; transition: .3s}
+.consultas .btn:active { color: #fff; background-color: #A31F35 !important; transition: .3s}
+
+
+
+/*---------------- ------------- ----------------*/
+/*---------------- MEDIA QUERIES ----------------*/
+/*---------------- ------------- ----------------*/
+@media (min-width: 576px) {}
+    .galeria { margin-top: 40px; padding: 20px; height: auto;}
+    .galeria .galeria-videos .row .numero-video { display: none;}
+
+    .noticias .suscripto::before{ content: "\f02e"; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; color: #A31F35; font-size: 72pt; padding-right: 0.5em; position: absolute; top: -30px; left: 250px;}
+    .modal .modal-content { right: 0px;}
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    .suscripcion .col-lg-4 { max-width: 31% !important}
+    .suscripcion-ph .offset-lg-1 { margin-left: 2% !important;}
+
+    .noticias .col-lg-4 { max-width: 31% !important}
+    .noticias-ph .offset-lg-1 { margin-left: 2% !important;}
+
+}
+
+@media (min-width: 1360px) {
+    .galeria { margin-top: 40px; padding: 20px; height: 560px;}
+    .galeria .galeria-videos .row { margin-top: 15px; line-height: 65px !important;}
+    .galeria .galeria-videos .row .numero-video { display: block;}
+    .galeria .galeria-videos iframe { width: 100%; height: 75px !important;}
+
+    .suscripcion .suscripto::before{ content: "\f02e"; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; color: #A31F35; font-size: 72pt; padding-right: 0.5em; position: absolute; top: -30px; left: 290px;}
+    
+    .modal .modal-content { width: 160% !important; padding: 0px !important; right: 250px;}
+    .modal .modal-body { padding: 0px !important;}
+
+    .popup-titulo, .popup-copete, .popup-cuerpo { padding-left: 15px;}
+}
+
+@media (min-width: 1440px) {
+    .galeria { margin-top: 40px; padding: 20px; height: 560px;}
+    .galeria .galeria-videos .row { margin-top: 15px; line-height: 65px !important;}
+    .galeria .galeria-videos .row .numero-video { display: block;}
+    .galeria .galeria-videos iframe { width: 100%; height: 75px !important;}
+
+    .noticias .col-lg-3{ width: 400px !important;}
+
+    .suscripcion .suscripto::before{ content: "\f02e"; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; color: #A31F35; font-size: 72pt; padding-right: 0.5em; position: absolute; top: -30px; left: 300px;}
+    
+    .modal .modal-content { width: 160% !important; padding: 0px !important; right: 250px;}
+    .modal .modal-body { padding: 0px !important;}
+
+    .popup-titulo, .popup-copete, .popup-cuerpo { padding-left: 15px;}
+}
+
+@media (min-width: 1920px) {
+    .galeria { margin-top: 40px; padding: 20px; height: 560px;}
+    .galeria .galeria-videos .row { margin-top: 15px; line-height: 65px !important;}
+    .galeria .galeria-videos .row .numero-video { display: block;}
+    .galeria .galeria-videos iframe { width: 100%; height: 75px !important;}
+
+    .suscripcion .suscripto::before{ content: "\f02e"; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; color: #A31F35; font-size: 72pt; padding-right: 0.5em; position: absolute; top: -30px; left: 300px;}
+    
+    .suscripcion .col-lg-4 { max-width: 27% !important}
+    .suscripcion-ph .offset-lg-1 { margin-left: 13% !important;}
+
+    .noticias .col-lg-4 { max-width: 27% !important}
+    .noticias-ph .offset-lg-1 { margin-left: 13% !important;}
+
+    .modal .modal-content { width: 180% !important; padding: 0px !important; right: 318px;}
+    .modal .modal-body { padding: 0px !important;}
+
+    .popup-titulo, .popup-copete, .popup-cuerpo { padding-left: 15px;}
+
+    
+}
